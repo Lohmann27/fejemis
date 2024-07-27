@@ -1,0 +1,39 @@
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/launch/gz.launch.py
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/launch/gz_bridge.launch.py
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/launch/gz_sim.launch.py
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/config/gz_bridge.yaml
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/worlds/firstWorld.sdf
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/models/Coke/materials/coke.png
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/models/Coke/meshes/coke.mtl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/models/Coke/meshes/coke.obj
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/models/Coke/model.config
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/models/Coke/model.sdf
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/models/Coke/thumbnails/1.png
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/models/Coke/thumbnails/2.png
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/models/Coke/thumbnails/3.png
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/models/Coke/thumbnails/4.png
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/models/Coke/thumbnails/5.png
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/models/Cutout Wall/materials/scripts/cutout_wall.material
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/models/Cutout Wall/materials/textures/cutout_wall.png
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/models/Cutout Wall/model.config
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/models/Cutout Wall/model.sdf
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/models/Cutout Wall/thumbnails/1.png
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/models/Cutout Wall/thumbnails/2.png
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/models/Cutout Wall/thumbnails/3.png
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/models/Cutout Wall/thumbnails/4.png
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/models/Cutout Wall/thumbnails/5.png
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/ament_index/resource_index/package_run_dependencies/robot_simulation
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/ament_index/resource_index/parent_prefix_path/robot_simulation
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/environment/ament_prefix_path.sh
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/environment/ament_prefix_path.dsv
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/environment/path.sh
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/environment/path.dsv
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/local_setup.bash
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/local_setup.sh
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/local_setup.zsh
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/local_setup.dsv
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/package.dsv
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/ament_index/resource_index/packages/robot_simulation
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/cmake/robot_simulationConfig.cmake
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/cmake/robot_simulationConfig-version.cmake
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/package.xml

@@ -1,0 +1,65 @@
+ controller_manager:
+   ros__parameters:
+     update_rate: 1000  # Hz
+
+     forward_velocity_controller:
+       type: forward_command_controller/ForwardCommandController
+
+     forward_position_controller:
+       type: forward_command_controller/ForwardCommandController
+
+     joint_state_broadcaster:
+       type: joint_state_broadcaster/JointStateBroadcaster
+
+ forward_velocity_controller:
+   ros__parameters:
+     joints:
+       - left_wheel_joint
+       - right_wheel_joint
+     interface_name: velocity
+     command_interfaces:
+       - velocity
+     state_interfaces:
+       - position
+       - velocity
+
+ forward_position_controller:
+   ros__parameters:
+     joints:
+       - left_wheel_joint
+       - right_wheel_joint
+     interface_name: position
+     command_interfaces:
+       - position
+     state_interfaces:
+       - position
+       - velocity
+
+
+
+#  controller_manager:
+#    ros__parameters:
+#      update_rate: 1000
+
+#      diff_drive_controller:
+#        type: "diff_drive_controller/DiffDriveController"
+#        ros__parameters:
+#          use_sim_time: true
+#          left_wheel_names: ["left_wheel_joint"]
+#          right_wheel_names: ["right_wheel_joint"]
+#          wheel_separation: 0.440
+#          wheel_radius: 0.1
+#          cmd_vel_timeout: 0.5
+#          publish_rate: 50
+#          velocity_rolling_window_size: 10
+#          linear:
+#            x:
+#              has_velocity_limits: true
+#              max_velocity: 1.0
+#              min_velocity: -1.0
+#          angular:
+#            z:
+#              has_velocity_limits: true
+#              max_velocity: 2.0
+#              min_velocity: -2.0
+#          cmd_vel_topic: "/cmd_vel_joy"  # Remap the command topic to /cmd_vel_joy

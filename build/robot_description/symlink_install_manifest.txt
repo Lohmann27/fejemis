@@ -1,0 +1,77 @@
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/launch/robot_sdf.launch.py
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/launch/robot_xacro.launch.py
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/config/view_robot.rviz
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - AM0600115_INT_REV01_2_SW0001_1.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - D435-mount-V.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - D455-mount-h.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - DS5_0390_LABEL_FRONT_ADH_D455_3.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - DS5_0390_LABEL_FRONT_MOD_D455_5.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - MEC060304_3.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - MEC060311_6.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - MEC060316_8.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - MEC060318_11.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - Part 1.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - Part 4.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - Spur gear (16 teeth).stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - Spur_gear_48_teeth.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - X.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - Y.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - Z.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - alu_20x20-inner.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - alu_20x20_cam-top.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - alu_20x20_to_fejemis.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - bearing-block.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - fix_left.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - fix_right.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - fixed-part.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - fork.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - kost_bottom.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - kost_top.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - link-lower.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - motor_dsmp420-12-504.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - mount_2_fejemis_1.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - mount_2_fejemis_2.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - pololu-8mm-flange.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - servi-horn.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - servo.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - side_1.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - side_2.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - side_back_1.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - side_back_2.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - teensy_board.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - tube-1-mount.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - tube-1.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - tube-2-mount.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - tube-2.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - tube-3-mount.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - tube-4-mount.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - tube-top.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - up-base.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - wheel-knot.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - wheel.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - wheel_adaptor_1.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - wheel_wide.stl
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/robot_model.sdf
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/xacro/camera.xacro
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/xacro/depth_camera.xacro
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/xacro/gazebo_control.xacro
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/xacro/inertial_macros.xacro
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/xacro/lidar.xacro
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/xacro/robot.urdf.xacro
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/xacro/robot_core.xacro
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/xacro/ros2_control.xacro
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/environment/path.sh
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/environment/path.dsv
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/local_setup.bash
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/local_setup.sh
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/local_setup.zsh
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/local_setup.dsv
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/package.dsv
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/ament_index/resource_index/packages/robot_description
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/package.xml

@@ -1,0 +1,20 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/launch/gz.launch.py
+-- Symlinking: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/config/gazebo_bridge.yaml
+-- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/worlds/firstWorld.sdf
+-- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/ament_index/resource_index/package_run_dependencies/robot_simulation
+-- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/ament_index/resource_index/parent_prefix_path/robot_simulation
+-- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/environment/path.sh
+-- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/environment/path.dsv
+-- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/local_setup.bash
+-- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/local_setup.sh
+-- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/local_setup.zsh
+-- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/local_setup.dsv
+-- Symlinking: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/package.dsv
+-- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/ament_index/resource_index/packages/robot_simulation
+-- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/cmake/robot_simulationConfig.cmake
+-- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/cmake/robot_simulationConfig-version.cmake
+-- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/package.xml

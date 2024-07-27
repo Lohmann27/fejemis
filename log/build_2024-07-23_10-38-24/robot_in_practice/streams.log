@@ -1,0 +1,53 @@
+[0.018s] Invoking command in '/home/silo/Desktop/cleaning_robot_ws/build/robot_in_practice': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/silo/Desktop/cleaning_robot_ws/src/robot_in_practice -DCMAKE_INSTALL_PREFIX=/home/silo/Desktop/cleaning_robot_ws/install/robot_in_practice
+[0.142s] -- The C compiler identification is GNU 13.2.0
+[0.258s] -- The CXX compiler identification is GNU 13.2.0
+[0.281s] -- Detecting C compiler ABI info
+[0.397s] -- Detecting C compiler ABI info - done
+[0.416s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.417s] -- Detecting C compile features
+[0.417s] -- Detecting C compile features - done
+[0.431s] -- Detecting CXX compiler ABI info
+[0.568s] -- Detecting CXX compiler ABI info - done
+[0.583s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.583s] -- Detecting CXX compile features
+[0.584s] -- Detecting CXX compile features - done
+[0.593s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.818s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.021s] -- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.107s] -- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.135s] -- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.169s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.206s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.338s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.344s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.470s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.512s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.559s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.714s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.737s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.920s] -- Added test 'lint_cmake' to check CMake code style
+[1.924s] -- Added test 'xmllint' to check XML markup files
+[1.929s] -- Configuring done (1.9s)
+[1.945s] -- Generating done (0.0s)
+[1.952s] -- Build files have been written to: /home/silo/Desktop/cleaning_robot_ws/build/robot_in_practice
+[1.978s] Invoked command in '/home/silo/Desktop/cleaning_robot_ws/build/robot_in_practice' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/silo/Desktop/cleaning_robot_ws/src/robot_in_practice -DCMAKE_INSTALL_PREFIX=/home/silo/Desktop/cleaning_robot_ws/install/robot_in_practice
+[1.981s] Invoking command in '/home/silo/Desktop/cleaning_robot_ws/build/robot_in_practice': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/silo/Desktop/cleaning_robot_ws/build/robot_in_practice -- -j12 -l12
+[2.123s] Invoked command in '/home/silo/Desktop/cleaning_robot_ws/build/robot_in_practice' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/silo/Desktop/cleaning_robot_ws/build/robot_in_practice -- -j12 -l12
+[2.159s] Invoking command in '/home/silo/Desktop/cleaning_robot_ws/build/robot_in_practice': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/silo/Desktop/cleaning_robot_ws/build/robot_in_practice
+[2.170s] -- Install configuration: ""
+[2.170s] -- Installing: /home/silo/Desktop/cleaning_robot_ws/install/robot_in_practice/share/ament_index/resource_index/package_run_dependencies/robot_in_practice
+[2.170s] -- Installing: /home/silo/Desktop/cleaning_robot_ws/install/robot_in_practice/share/ament_index/resource_index/parent_prefix_path/robot_in_practice
+[2.170s] -- Installing: /home/silo/Desktop/cleaning_robot_ws/install/robot_in_practice/share/robot_in_practice/environment/ament_prefix_path.sh
+[2.170s] -- Installing: /home/silo/Desktop/cleaning_robot_ws/install/robot_in_practice/share/robot_in_practice/environment/ament_prefix_path.dsv
+[2.171s] -- Installing: /home/silo/Desktop/cleaning_robot_ws/install/robot_in_practice/share/robot_in_practice/environment/path.sh
+[2.171s] -- Installing: /home/silo/Desktop/cleaning_robot_ws/install/robot_in_practice/share/robot_in_practice/environment/path.dsv
+[2.171s] -- Installing: /home/silo/Desktop/cleaning_robot_ws/install/robot_in_practice/share/robot_in_practice/local_setup.bash
+[2.171s] -- Installing: /home/silo/Desktop/cleaning_robot_ws/install/robot_in_practice/share/robot_in_practice/local_setup.sh
+[2.171s] -- Installing: /home/silo/Desktop/cleaning_robot_ws/install/robot_in_practice/share/robot_in_practice/local_setup.zsh
+[2.171s] -- Installing: /home/silo/Desktop/cleaning_robot_ws/install/robot_in_practice/share/robot_in_practice/local_setup.dsv
+[2.171s] -- Installing: /home/silo/Desktop/cleaning_robot_ws/install/robot_in_practice/share/robot_in_practice/package.dsv
+[2.172s] -- Installing: /home/silo/Desktop/cleaning_robot_ws/install/robot_in_practice/share/ament_index/resource_index/packages/robot_in_practice
+[2.172s] -- Installing: /home/silo/Desktop/cleaning_robot_ws/install/robot_in_practice/share/robot_in_practice/cmake/robot_in_practiceConfig.cmake
+[2.172s] -- Installing: /home/silo/Desktop/cleaning_robot_ws/install/robot_in_practice/share/robot_in_practice/cmake/robot_in_practiceConfig-version.cmake
+[2.172s] -- Installing: /home/silo/Desktop/cleaning_robot_ws/install/robot_in_practice/share/robot_in_practice/package.xml
+[2.174s] Invoked command in '/home/silo/Desktop/cleaning_robot_ws/build/robot_in_practice' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/silo/Desktop/cleaning_robot_ws/build/robot_in_practice

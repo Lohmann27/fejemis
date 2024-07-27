@@ -1,0 +1,26 @@
+[0.019s] Invoking command in '/home/silo/Desktop/cleaning_robot_ws/build/robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/silo/Desktop/cleaning_robot_ws/build/robot_control -- -j12 -l12
+[0.055s] Invoked command in '/home/silo/Desktop/cleaning_robot_ws/build/robot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/silo/Desktop/cleaning_robot_ws/build/robot_control -- -j12 -l12
+[0.081s] Invoking command in '/home/silo/Desktop/cleaning_robot_ws/build/robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/silo/Desktop/cleaning_robot_ws/build/robot_control
+[0.089s] -- Install configuration: ""
+[0.089s] -- Execute custom install script
+[0.089s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_control/share/robot_control/launch/keyboard.launch.py
+[0.090s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_control/share/robot_control/config/controller.yaml
+[0.090s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_control/share/robot_control/config/diff_drive_controller_velocity.yaml
+[0.090s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_control/share/robot_control/config/joystick.yaml
+[0.090s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_control/share/robot_control/config/twist_mux.yaml
+[0.091s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_control/share/ament_index/resource_index/package_run_dependencies/robot_control
+[0.091s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_control/share/ament_index/resource_index/parent_prefix_path/robot_control
+[0.092s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_control/share/robot_control/environment/ament_prefix_path.sh
+[0.092s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_control/share/robot_control/environment/ament_prefix_path.dsv
+[0.092s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_control/share/robot_control/environment/path.sh
+[0.093s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_control/share/robot_control/environment/path.dsv
+[0.093s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_control/share/robot_control/local_setup.bash
+[0.094s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_control/share/robot_control/local_setup.sh
+[0.094s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_control/share/robot_control/local_setup.zsh
+[0.095s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_control/share/robot_control/local_setup.dsv
+[0.095s] -- Symlinking: /home/silo/Desktop/cleaning_robot_ws/install/robot_control/share/robot_control/package.dsv
+[0.111s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_control/share/ament_index/resource_index/packages/robot_control
+[0.111s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_control/share/robot_control/cmake/robot_controlConfig.cmake
+[0.111s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_control/share/robot_control/cmake/robot_controlConfig-version.cmake
+[0.111s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_control/share/robot_control/package.xml
+[0.111s] Invoked command in '/home/silo/Desktop/cleaning_robot_ws/build/robot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/silo/Desktop/cleaning_robot_ws/build/robot_control

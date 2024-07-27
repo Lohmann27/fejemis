@@ -1,0 +1,83 @@
+[0.016s] Invoking command in '/home/silo/Desktop/cleaning_robot_ws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/silo/Desktop/cleaning_robot_ws/build/robot_description -- -j12 -l12
+[0.050s] Invoked command in '/home/silo/Desktop/cleaning_robot_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/silo/Desktop/cleaning_robot_ws/build/robot_description -- -j12 -l12
+[0.076s] Invoking command in '/home/silo/Desktop/cleaning_robot_ws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/silo/Desktop/cleaning_robot_ws/build/robot_description
+[0.083s] -- Install configuration: ""
+[0.083s] -- Execute custom install script
+[0.083s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/launch/robot_sdf.launch.py
+[0.084s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/launch/robot_xacro.launch.py
+[0.084s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/config/view_robot.rviz
+[0.084s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - AM0600115_INT_REV01_2_SW0001_1.stl
+[0.085s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - D435-mount-V.stl
+[0.085s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - D455-mount-h.stl
+[0.085s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - DS5_0390_LABEL_FRONT_ADH_D455_3.stl
+[0.085s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - DS5_0390_LABEL_FRONT_MOD_D455_5.stl
+[0.086s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - MEC060304_3.stl
+[0.086s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - MEC060311_6.stl
+[0.086s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - MEC060316_8.stl
+[0.086s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - MEC060318_11.stl
+[0.086s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - Part 1.stl
+[0.087s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - Part 4.stl
+[0.087s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - Spur gear (16 teeth).stl
+[0.087s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - Spur_gear_48_teeth.stl
+[0.087s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - X.stl
+[0.087s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - Y.stl
+[0.088s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - Z.stl
+[0.088s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - alu_20x20-inner.stl
+[0.088s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - alu_20x20_cam-top.stl
+[0.088s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - alu_20x20_to_fejemis.stl
+[0.088s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - bearing-block.stl
+[0.088s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - fix_left.stl
+[0.088s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - fix_right.stl
+[0.089s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - fixed-part.stl
+[0.090s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - fork.stl
+[0.090s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - kost_bottom.stl
+[0.090s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - kost_top.stl
+[0.090s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - link-lower.stl
+[0.090s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - motor_dsmp420-12-504.stl
+[0.090s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - mount_2_fejemis_1.stl
+[0.090s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - mount_2_fejemis_2.stl
+[0.090s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - pololu-8mm-flange.stl
+[0.090s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - servi-horn.stl
+[0.091s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - servo.stl
+[0.091s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - side_1.stl
+[0.091s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - side_2.stl
+[0.091s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - side_back_1.stl
+[0.091s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - side_back_2.stl
+[0.091s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - teensy_board.stl
+[0.091s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - tube-1-mount.stl
+[0.091s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - tube-1.stl
+[0.091s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - tube-2-mount.stl
+[0.091s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - tube-2.stl
+[0.091s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - tube-3-mount.stl
+[0.091s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - tube-4-mount.stl
+[0.092s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - tube-top.stl
+[0.092s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - up-base.stl
+[0.092s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - wheel-knot.stl
+[0.092s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - wheel.stl
+[0.092s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - wheel_adaptor_1.stl
+[0.092s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - wheel_wide.stl
+[0.092s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/robot_model.sdf
+[0.092s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/xacro/camera.xacro
+[0.092s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/xacro/depth_camera.xacro
+[0.092s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/xacro/gazebo_control.xacro
+[0.092s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/xacro/inertial_macros.xacro
+[0.092s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/xacro/lidar.xacro
+[0.093s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/xacro/robot.urdf.xacro
+[0.093s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/xacro/robot_core.xacro
+[0.093s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/xacro/ros2_control.xacro
+[0.093s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[0.093s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[0.093s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[0.093s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[0.093s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/environment/path.sh
+[0.094s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/environment/path.dsv
+[0.096s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/local_setup.bash
+[0.096s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/local_setup.sh
+[0.097s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/local_setup.zsh
+[0.097s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/local_setup.dsv
+[0.097s] -- Symlinking: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/package.dsv
+[0.106s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[0.107s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[0.108s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[0.108s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/package.xml
+[0.124s] Invoked command in '/home/silo/Desktop/cleaning_robot_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/silo/Desktop/cleaning_robot_ws/build/robot_description

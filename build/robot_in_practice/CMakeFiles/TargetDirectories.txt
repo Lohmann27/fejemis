@@ -1,0 +1,9 @@
+/home/silo/Desktop/cleaning_robot_ws/build/robot_in_practice/CMakeFiles/uninstall.dir
+/home/silo/Desktop/cleaning_robot_ws/build/robot_in_practice/CMakeFiles/robot_in_practice_uninstall.dir
+/home/silo/Desktop/cleaning_robot_ws/build/robot_in_practice/CMakeFiles/test.dir
+/home/silo/Desktop/cleaning_robot_ws/build/robot_in_practice/CMakeFiles/edit_cache.dir
+/home/silo/Desktop/cleaning_robot_ws/build/robot_in_practice/CMakeFiles/rebuild_cache.dir
+/home/silo/Desktop/cleaning_robot_ws/build/robot_in_practice/CMakeFiles/list_install_components.dir
+/home/silo/Desktop/cleaning_robot_ws/build/robot_in_practice/CMakeFiles/install.dir
+/home/silo/Desktop/cleaning_robot_ws/build/robot_in_practice/CMakeFiles/install/local.dir
+/home/silo/Desktop/cleaning_robot_ws/build/robot_in_practice/CMakeFiles/install/strip.dir

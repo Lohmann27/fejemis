@@ -1,0 +1,15 @@
+/home/silo/Desktop/cleaning_robot_ws/install/robot_in_practice/share/ament_index/resource_index/package_run_dependencies/robot_in_practice
+/home/silo/Desktop/cleaning_robot_ws/install/robot_in_practice/share/ament_index/resource_index/parent_prefix_path/robot_in_practice
+/home/silo/Desktop/cleaning_robot_ws/install/robot_in_practice/share/robot_in_practice/environment/ament_prefix_path.sh
+/home/silo/Desktop/cleaning_robot_ws/install/robot_in_practice/share/robot_in_practice/environment/ament_prefix_path.dsv
+/home/silo/Desktop/cleaning_robot_ws/install/robot_in_practice/share/robot_in_practice/environment/path.sh
+/home/silo/Desktop/cleaning_robot_ws/install/robot_in_practice/share/robot_in_practice/environment/path.dsv
+/home/silo/Desktop/cleaning_robot_ws/install/robot_in_practice/share/robot_in_practice/local_setup.bash
+/home/silo/Desktop/cleaning_robot_ws/install/robot_in_practice/share/robot_in_practice/local_setup.sh
+/home/silo/Desktop/cleaning_robot_ws/install/robot_in_practice/share/robot_in_practice/local_setup.zsh
+/home/silo/Desktop/cleaning_robot_ws/install/robot_in_practice/share/robot_in_practice/local_setup.dsv
+/home/silo/Desktop/cleaning_robot_ws/install/robot_in_practice/share/robot_in_practice/package.dsv
+/home/silo/Desktop/cleaning_robot_ws/install/robot_in_practice/share/ament_index/resource_index/packages/robot_in_practice
+/home/silo/Desktop/cleaning_robot_ws/install/robot_in_practice/share/robot_in_practice/cmake/robot_in_practiceConfig.cmake
+/home/silo/Desktop/cleaning_robot_ws/install/robot_in_practice/share/robot_in_practice/cmake/robot_in_practiceConfig-version.cmake
+/home/silo/Desktop/cleaning_robot_ws/install/robot_in_practice/share/robot_in_practice/package.xml
