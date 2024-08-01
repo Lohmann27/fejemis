@@ -1,0 +1,15 @@
+How to start a launch file:
+
+1. source /opt/ros/jazzy/setup.bash                 #if not setup in setup.bash for the terminal
+2. colcon build --symlink-instal                    #"--symlink-instal" is if you edit in a file and save it you wan't need to run colcon buil again.
+3. source install/setup.bash                        #setup.bash for the specific ros packages
+4. ros2 launch robot_simulation gz_sim.launch.py    #"robot_simulation" is the package name and "gz_sim.launch.py" is the launch file.
+
+
+Controller setup: 
+R1:        turbo mode (hold)
+L1:        normal mode (hold)
+left stik: control movement
+
+
+

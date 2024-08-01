@@ -17,7 +17,7 @@ def generate_launch_description():
 
     rsp = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([os.path.join(
-            get_package_share_directory(robot_description_path),'launch','robot_sdf.launch.py'
+            get_package_share_directory(robot_description_path),'launch','robot_xacro.launch.py'
         )]), launch_arguments={'use_sim_time': 'true'}.items()
     )
 

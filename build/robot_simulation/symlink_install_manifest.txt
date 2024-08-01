@@ -1,8 +1,17 @@
 /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/launch/gz.launch.py
 /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/launch/gz_bridge.launch.py
 /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/launch/gz_sim.launch.py
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/launch/nav2.launch.py
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/launch/online_async_launch.py
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/launch/rviz.launch.py
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/launch/slam.launch.py
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/launch/tester.launch.py
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/config/all_in_one.rviz
 /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/config/gz_bridge.yaml
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/config/mapper_params_online_async.yaml
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/config/view_robot.rviz
 /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/worlds/firstWorld.sdf
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/worlds/square_room.sdf
 /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/models/Coke/materials/coke.png
 /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/models/Coke/meshes/coke.mtl
 /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/models/Coke/meshes/coke.obj

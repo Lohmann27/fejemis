@@ -8,23 +8,32 @@
   lazy: false
   direction: ROS_TO_GZ
 
-- ros_topic_name: "/cmd_vel_key"
-  gz_topic_name: "/model/fejemis/cmd_vel"
-  ros_type_name: "geometry_msgs/msg/Twist"
-  gz_type_name: "gz.msgs.Twist"
+- ros_topic_name: "/scan"
+  gz_topic_name: "/lidar/points"
+  ros_type_name: "sensor_msgs/msg/LaserScan"
+  gz_type_name: "gz.msgs.LaserScan"
   subscriber_queue: 10
   publisher_queue: 10
-  lazy: true
-  direction: ROS_TO_GZ
-
-
-
-
-- ros_topic_name: "/cmd_vel_joy"
-  gz_topic_name: "/model/fejemis/cmd_vel"
-  ros_type_name: "geometry_msgs/msg/Twist"
-  gz_type_name: "gz.msgs.Twist"
-  subscriber_queue: 100
-  publisher_queue: 100
   lazy: false
-  direction: ROS_TO_GZ
+  direction: GZ_TO_ROS
+
+
+- ros_topic_name: "/image"
+  gz_topic_name: "/world/test_world/model/fejemis/link/base_link/sensor/camera/image"
+  ros_type_name: "sensor_msgs/msg/Image"
+  gz_type_name: "gz.msgs.Image"
+  subscriber_queue: 10
+  publisher_queue: 10
+  lazy: false
+  direction: GZ_TO_ROS
+
+
+- ros_topic_name: "/odom"
+  gz_topic_name: "/model/fejemis/odometry"
+  ros_type_name: "nav_msgs/msg/Odometry"
+  gz_type_name: "gz.msgs.Odometry"
+  subscriber_queue: 10
+  publisher_queue: 10
+  lazy: false
+  direction: GZ_TO_ROS
+  

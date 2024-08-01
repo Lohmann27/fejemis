@@ -4,9 +4,15 @@
 
     <ros2_control name="RealRobot" type="system">
         <hardware>
-            <plugin>gz_ros2_control/GazeboSimSystem</plugin>
+            <plugin>diffdrive_arduino/DiffDriveArduino</plugin>
+            <param name="left_wheel_name">left_wheel_joint</param>
+            <param name="right_wheel_name">right_wheel_joint</param>
+            <param name="loop_rate">30</param>
+            <param name="device">/dev/ttyACM1</param>
+            <param name="baud_rate">115200</param>
+            <param name="timeout">1000</param>
+            <param name="enc_counts_per_rev">3436</param>
         </hardware>
-        
         <joint name="left_wheel_joint">
             <command_interface name="velocity">
                 <param name="min">-10</param>
@@ -48,22 +54,10 @@
 
     </ros2_control> -->
 
-    <!-- <gazebo>
+    <gazebo>
     <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
-        <parameters>$(find robot_simulation)/config/controller.yaml</parameters>
+        <parameters>$(find fejemis_sim)/config/my_controller.yaml</parameters>
     </plugin>
     </gazebo>
-
-
-    <hardware>
-            <plugin>diffdrive_arduino/DiffDriveArduino</plugin>
-            <param name="left_wheel_name">left_wheel_joint</param>
-            <param name="right_wheel_name">right_wheel_joint</param>
-            <param name="loop_rate">30</param>
-            <param name="device">/dev/ttyACM1</param>
-            <param name="baud_rate">115200</param>
-            <param name="timeout">1000</param>
-            <param name="enc_counts_per_rev">3436</param>
-    </hardware> -->
 
 </robot>

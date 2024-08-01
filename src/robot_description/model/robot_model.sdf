@@ -356,9 +356,12 @@
             <wheel_radius>0.1</wheel_radius>
             <odom_publish_frequency>1</odom_publish_frequency>
             <topic>/model/fejemis/cmd_vel</topic>
+            <odom_topic>/model/fejemis/odometry</odom_topic>
+            <tf_topic>/model/fejemis/tf</tf_topic>
+            <frame_id>odom</frame_id>
+            <child_frame_id>base_link</child_frame_id>
+            
         </plugin>
-
-        
 
     </model>    
 </sdf>
