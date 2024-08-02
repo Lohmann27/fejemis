@@ -6,6 +6,7 @@ Panels:
       Expanded:
         - /Global Options1
         - /Status1
+        - /TF1/Status1
         - /TF1/Frames1
         - /LaserScan1/Topic1
         - /Odometry1
@@ -61,11 +62,21 @@ Visualization Manager:
           Value: true
         base_link:
           Value: true
+        camera_link:
+          Value: true
+        camera_link_optical:
+          Value: true
         caster_wheel:
           Value: true
         chassis:
           Value: true
         laser_frame:
+          Value: true
+        left_wheel:
+          Value: true
+        odom:
+          Value: true
+        right_wheel:
           Value: true
       Marker Scale: 1
       Name: TF
@@ -76,10 +87,19 @@ Visualization Manager:
         base_link:
           base_footprint:
             chassis:
+              camera_link:
+                camera_link_optical:
+                  {}
               caster_wheel:
                 {}
               laser_frame:
                 {}
+            left_wheel:
+              {}
+            right_wheel:
+              {}
+        odom:
+          {}
       Update Interval: 0
       Value: true
     - Class: rviz_default_plugins/Image
@@ -198,7 +218,7 @@ Visualization Manager:
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
-    Fixed Frame: base_link
+    Fixed Frame: odom
     Frame Rate: 30
   Name: root
   Tools:
