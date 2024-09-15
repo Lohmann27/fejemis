@@ -17,14 +17,14 @@ def generate_launch_description():
     rsp = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([os.path.join(
             get_package_share_directory(robot_description_package),'launch','robot_xacro.launch.py'
-        )]), launch_arguments={'use_sim_time': 'true', 'use_ros2_control': 'false'}.items()
+        )]), launch_arguments={'use_sim_time': 'true', 'use_ros2_control': 'true'}.items()
     )
 
 
     rviz = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([os.path.join(
             get_package_share_directory(robot_simulation_package),'launch','rviz.launch.py'
-        )]), launch_arguments={'view_laserscan': 'false','view_robot': 'true'}.items()
+        )]), launch_arguments={'use_sim_time': 'true','view_laserscan': 'false','view_robot': 'true'}.items()
     )
 
     gazebo = IncludeLaunchDescription(

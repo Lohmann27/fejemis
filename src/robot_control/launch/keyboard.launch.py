@@ -22,11 +22,20 @@ def generate_launch_description():
         ]
     )
 
+    # twist_stamper = Node(
+    #         package='twist_stamper',
+    #         executable='twist_stamper',
+    #         parameters=[{'use_sim_time': use_sim_time}],
+    #         remappings=[('/cmd_vel_in','/cmd_vel_key'),
+    #                     ('/cmd_vel_out','/cmd_vel_key_stamped')]
+    #      )
+
     # Return the LaunchDescription containing both the included launch file and the keyboard node
     return LaunchDescription([
         DeclareLaunchArgument(
             'use_sim_time',
             default_value='false',
             description='Use sim time if true'),
-        keyboard
+        keyboard,
+        # twist_stamper
     ])

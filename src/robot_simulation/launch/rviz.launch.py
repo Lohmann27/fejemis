@@ -7,37 +7,39 @@ from ament_index_python.packages import get_package_share_directory
 from launch.conditions import IfCondition
 
 def generate_launch_description():
-
     # rviz views
     view_laserscan = LaunchConfiguration('view_laserscan', default='true')
     view_robot = LaunchConfiguration('view_robot', default='true')
+    use_sim_time = LaunchConfiguration('use_sim_time', default='false')  # Add this to configure sim time
 
     package_name = 'robot_simulation'
 
     # Conditional launch for laserscan RViz view
     rviz_laser = GroupAction([
-            LogInfo(condition=IfCondition(view_laserscan), msg="Launching RViz1"),
-            Node(
+        LogInfo(condition=IfCondition(view_laserscan), msg="Launching RViz1"),
+        Node(
             package='rviz2',
             executable='rviz2',
             name='rviz2_laser',
             output='screen',
-            arguments=['-d', os.path.join(get_package_share_directory(package_name), 'config', 'laserscan.rviz')]
+            arguments=['-d', os.path.join(get_package_share_directory(package_name), 'config', 'laserscan.rviz')],
+            parameters=[{'use_sim_time': use_sim_time}]  # Add use_sim_time parameter here
         ),
     ], condition=IfCondition(view_laserscan))
- 
+
     # Conditional launch for robot RViz view
     rviz_robot = GroupAction([
-            LogInfo(condition=IfCondition(view_robot), msg="Launching RViz2"),
-            Node(
+        LogInfo(condition=IfCondition(view_robot), msg="Launching RViz2"),
+        Node(
             package='rviz2',
             executable='rviz2',
             name='rviz2_robot',
             output='screen',
-            arguments=['-d', os.path.join(get_package_share_directory(package_name), 'config', 'view_robot.rviz')]
+            arguments=['-d', os.path.join(get_package_share_directory(package_name), 'config', 'view_robot.rviz')],
+            parameters=[{'use_sim_time': use_sim_time}]  # Add use_sim_time parameter here
         ),
     ], condition=IfCondition(view_robot))
- 
+
     return LaunchDescription([
         rviz_laser,
         rviz_robot
