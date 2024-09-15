@@ -1,0 +1,82 @@
+
+# Using the following parameters:
+# usbdev1 = /dev/ttyACM0
+# usbdev2 = /dev/ttyACM1
+# port    = 24001
+# gamepad = /dev/input/js0
+# simhost = localhost
+# simport = 0
+# daemon  = 1
+# log+ini = /home/local/fejemis_ws/src/bridge/launch
+# ------------------------
+Hostname: fejemis
+# UServerPort::run: Socket server started 24001 on fejemis
+Joystick model: Logitech Gamepad F710
+UJoy::run: init gamepad completed
+#### found IP 0: wlp58s0 10.199.253.209
+# UHost:run: bridge loop has stopped (0 == 0)
+# UIni::loadIniFile for interface gamepad: gamepad rcmax 2.0 45 0.2
+# UIni::loadIniFile for interface gamepad: gamepad:rc subscribe -1 front
+# UIni::loadIniFile for interface gamepad: gamepad:rc subscribe -1 drive
+# UIni::loadIniFile for interface gamepad: gamepad:rc logopen
+# UBridge::decode: setting Teensy1 to active=1
+# UBridge::decode: setting Teensy2 to active=1
+# Teensy::openToTeensy dev=0 is not open already - opening
+# UTeensy::openToTeensy opened /dev/ttyACM0
+# UTeensy::run: just connected: sending 'idi' to teensy at /dev/ttyACM0
+# UTeensy::decode - just connected - got 'dname' reload-ini front
+# UIni::loadIniFile for interface front: front led 1 200 0 0
+# UIni::loadIniFile for interface front: front led 2 200 0 0
+# UIni::loadIniFile for interface front: front led 3 200 0 0
+# UIni::loadIniFile for interface front: front led 4 200 0 0
+# UIni::loadIniFile for interface front: front led 5 200 0 0
+# UIni::loadIniFile for interface front: front led 6 200 0 0
+# UIni::loadIniFile for interface front: front fwoffset 75 0
+# UIni::loadIniFile for interface front: front cssteer  1 15  0 1 100  1   1 0.5 0.05  1 0 0.02   0 1 1   0 -1000 1000 0 1 0 1 1  1 
+# UIni::loadIniFile for interface front: front sub id 2000
+# UIni::loadIniFile for interface front: front sub ver 2001
+# UIni::loadIniFile for interface front: front sub hbt 601
+# UIni::loadIniFile for interface front: front sub fwl 100
+# UIni::loadIniFile for interface front: front cpsteeri
+# UIni::loadIniFile for interface front: front:fwl logopen
+# UIni::loadIniFile for interface front: gamepad:rc subscribe -1 front
+# UIni::loadIniFile for interface front: front:fwl subscribe -1 drive
+# UIni::loadIniFile for interface front: front:# subscribe -1 console
+# Teensy::openToTeensy dev=0 is open already
+# Teensy::openToTeensy dev=1 is not open already - opening
+# UTeensy::openToTeensy opened /dev/ttyACM1
+# UTeensy::run: just connected: sending 'idi' to teensy at /dev/ttyACM1
+# UHandler::handleCommand: CRC check failed (from -2 ttyACM1) q1=27 != q2=58 (msg=;58pose 1611.488 ;37enc 0 0 0 0
+
+# UTeensy::decode - just connected - got 'dname' reload-ini drive
+# UIni::loadIniFile for interface drive: drive posei
+# UIni::loadIniFile for interface drive: drive veli
+# UIni::loadIniFile for interface drive: drive gyroi
+# UIni::loadIniFile for interface drive: drive confi
+# UIni::loadIniFile for interface drive: drive sub pose 10
+# UIni::loadIniFile for interface drive: drive sub gyro 11
+# UIni::loadIniFile for interface drive: drive sub enc 9
+# UIni::loadIniFile for interface drive: drive sub bat 400
+# UIni::loadIniFile for interface drive: drive sub conf 801
+# UIni::loadIniFile for interface drive: drive sub hbt 601
+# UIni::loadIniFile for interface drive: drive sub mot 23
+# UIni::loadIniFile for interface drive: drive sub id 2000
+# UIni::loadIniFile for interface drive: drive sub ver 2001
+# UIni::loadIniFile for interface drive: drive:pose logopen
+# UIni::loadIniFile for interface drive: gamepad:rc subscribe -1 drive
+# UIni::loadIniFile for interface drive: front:fwl subscribe -1 drive
+# UIni::loadIniFile for interface drive: drive:# subscribe -1 console
+# UIni::loadIniFile for interface drive: drive:pose subscribe -1 ros
+UnblockedIo::blockSend: waited 21ms - now send 20 of 20 chars
+# UHandler::handleCommand: CRC check failed (from -2 drive) q1=7 != q2=27 (msg=;27gyro -2.380;55pose 1635.641 0.000 0.000 0.0000
+
+drive:# processing under protest - no CRC 'fwl 7.16 0x0 0x3c2'
+Bridge::Main:: Running as daemon - no keyboard input
+front:# processing under protest - no CRC
+front:# processing under protest - no CRC
+front:# processing under protest - no CRC
+front:# processing under protest - no CRC
+front:# processing under protest - no CRC
+front:# processing under protest - no CRC
+front:# processing under protest - no CRC
+front:# processing under protest - no CRC

@@ -1,7 +1,10 @@
 /home/silo/Desktop/cleaning_robot_ws/install/robot_control/share/robot_control/launch/control.launch.py
+/home/silo/Desktop/cleaning_robot_ws/install/robot_control/share/robot_control/launch/controller_manager.launch.py
 /home/silo/Desktop/cleaning_robot_ws/install/robot_control/share/robot_control/launch/joystick.launch.py
 /home/silo/Desktop/cleaning_robot_ws/install/robot_control/share/robot_control/launch/keyboard.launch.py
+/home/silo/Desktop/cleaning_robot_ws/install/robot_control/share/robot_control/launch/twist_mux.launch.py
 /home/silo/Desktop/cleaning_robot_ws/install/robot_control/share/robot_control/config/controller.yaml
+/home/silo/Desktop/cleaning_robot_ws/install/robot_control/share/robot_control/config/diff_drive_controller.yaml
 /home/silo/Desktop/cleaning_robot_ws/install/robot_control/share/robot_control/config/diff_drive_controller_velocity.yaml
 /home/silo/Desktop/cleaning_robot_ws/install/robot_control/share/robot_control/config/joystick.yaml
 /home/silo/Desktop/cleaning_robot_ws/install/robot_control/share/robot_control/config/twist_mux.yaml

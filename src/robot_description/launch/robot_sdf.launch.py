@@ -47,6 +47,14 @@ def generate_launch_description():
         name='joint_state_publisher',
         output='screen',
     )
+    
+    rviz = Node(
+            package='rviz2',
+            executable='rviz2',
+            name='rviz2',
+            output='screen',
+            arguments=['-d', os.path.join(get_package_share_directory(package_name), 'config', 'all_in_one.rviz')]
+        )
 
 
     # Launch!
@@ -61,5 +69,6 @@ def generate_launch_description():
             default_value='true',
             description='Use ros2 control if true'),
 
-        node_robot_state_publisher
+        node_robot_state_publisher,
+        rviz
     ])

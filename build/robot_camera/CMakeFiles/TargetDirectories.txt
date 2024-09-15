@@ -1,0 +1,9 @@
+/home/silo/Desktop/cleaning_robot_ws/build/robot_camera/CMakeFiles/uninstall.dir
+/home/silo/Desktop/cleaning_robot_ws/build/robot_camera/CMakeFiles/robot_camera_uninstall.dir
+/home/silo/Desktop/cleaning_robot_ws/build/robot_camera/CMakeFiles/test.dir
+/home/silo/Desktop/cleaning_robot_ws/build/robot_camera/CMakeFiles/edit_cache.dir
+/home/silo/Desktop/cleaning_robot_ws/build/robot_camera/CMakeFiles/rebuild_cache.dir
+/home/silo/Desktop/cleaning_robot_ws/build/robot_camera/CMakeFiles/list_install_components.dir
+/home/silo/Desktop/cleaning_robot_ws/build/robot_camera/CMakeFiles/install.dir
+/home/silo/Desktop/cleaning_robot_ws/build/robot_camera/CMakeFiles/install/local.dir
+/home/silo/Desktop/cleaning_robot_ws/build/robot_camera/CMakeFiles/install/strip.dir

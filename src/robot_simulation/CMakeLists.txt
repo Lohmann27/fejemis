@@ -22,8 +22,14 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
-install(DIRECTORY launch config worlds models
+install(DIRECTORY launch config worlds
   DESTINATION share/${PROJECT_NAME}
+)
+
+# Install Python scripts
+install(PROGRAMS
+  scripts/tf_broadcaster.py  # Make sure this matches the path and name of your script
+  DESTINATION lib/${PROJECT_NAME}
 )
 
 ament_package()

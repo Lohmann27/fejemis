@@ -1,37 +1,44 @@
 import os
 from launch import LaunchDescription
 from launch_ros.actions import Node
-from launch.actions import ExecuteProcess
-from launch_ros.substitutions import FindPackageShare
-from launch.substitutions import Command, FindExecutable, LaunchConfiguration, PathJoinSubstitution
+from launch.actions import LogInfo, GroupAction
+from launch.substitutions import LaunchConfiguration
 from ament_index_python.packages import get_package_share_directory
-from launch.actions import IncludeLaunchDescription
-from launch.launch_description_sources import PythonLaunchDescriptionSource
+from launch.conditions import IfCondition
 
 def generate_launch_description():
 
+    # rviz views
+    view_laserscan = LaunchConfiguration('view_laserscan', default='true')
+    view_robot = LaunchConfiguration('view_robot', default='true')
+
     package_name = 'robot_simulation'
 
-   # Path to the package where the included launch file is located
-    robot_description_path = 'robot_description'
-
-    rsp = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource([os.path.join(
-            get_package_share_directory(robot_description_path),'launch','robot_xacro.launch.py'
-        )]), launch_arguments={'use_sim_time': 'true'}.items()
-    )
-
-    rviz = Node(
+    # Conditional launch for laserscan RViz view
+    rviz_laser = GroupAction([
+            LogInfo(condition=IfCondition(view_laserscan), msg="Launching RViz1"),
+            Node(
             package='rviz2',
             executable='rviz2',
-            name='rviz2',
+            name='rviz2_laser',
             output='screen',
-            arguments=['-d', os.path.join(get_package_share_directory(package_name), 'config', 'all_in_one.rviz')]
-        )
-
-
-    
+            arguments=['-d', os.path.join(get_package_share_directory(package_name), 'config', 'laserscan.rviz')]
+        ),
+    ], condition=IfCondition(view_laserscan))
+ 
+    # Conditional launch for robot RViz view
+    rviz_robot = GroupAction([
+            LogInfo(condition=IfCondition(view_robot), msg="Launching RViz2"),
+            Node(
+            package='rviz2',
+            executable='rviz2',
+            name='rviz2_robot',
+            output='screen',
+            arguments=['-d', os.path.join(get_package_share_directory(package_name), 'config', 'view_robot.rviz')]
+        ),
+    ], condition=IfCondition(view_robot))
+ 
     return LaunchDescription([
-        rsp,
-        rviz
+        rviz_laser,
+        rviz_robot
     ])

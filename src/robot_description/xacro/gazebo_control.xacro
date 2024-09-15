@@ -17,6 +17,7 @@
             <child_frame_id>/base_link</child_frame_id>
             
         </plugin>
+
     
     </gazebo>
 

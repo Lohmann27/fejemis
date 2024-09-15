@@ -1,0 +1,15 @@
+/home/silo/Desktop/cleaning_robot_ws/install/robot_camera/share/ament_index/resource_index/package_run_dependencies/robot_camera
+/home/silo/Desktop/cleaning_robot_ws/install/robot_camera/share/ament_index/resource_index/parent_prefix_path/robot_camera
+/home/silo/Desktop/cleaning_robot_ws/install/robot_camera/share/robot_camera/environment/ament_prefix_path.sh
+/home/silo/Desktop/cleaning_robot_ws/install/robot_camera/share/robot_camera/environment/ament_prefix_path.dsv
+/home/silo/Desktop/cleaning_robot_ws/install/robot_camera/share/robot_camera/environment/path.sh
+/home/silo/Desktop/cleaning_robot_ws/install/robot_camera/share/robot_camera/environment/path.dsv
+/home/silo/Desktop/cleaning_robot_ws/install/robot_camera/share/robot_camera/local_setup.bash
+/home/silo/Desktop/cleaning_robot_ws/install/robot_camera/share/robot_camera/local_setup.sh
+/home/silo/Desktop/cleaning_robot_ws/install/robot_camera/share/robot_camera/local_setup.zsh
+/home/silo/Desktop/cleaning_robot_ws/install/robot_camera/share/robot_camera/local_setup.dsv
+/home/silo/Desktop/cleaning_robot_ws/install/robot_camera/share/robot_camera/package.dsv
+/home/silo/Desktop/cleaning_robot_ws/install/robot_camera/share/ament_index/resource_index/packages/robot_camera
+/home/silo/Desktop/cleaning_robot_ws/install/robot_camera/share/robot_camera/cmake/robot_cameraConfig.cmake
+/home/silo/Desktop/cleaning_robot_ws/install/robot_camera/share/robot_camera/cmake/robot_cameraConfig-version.cmake
+/home/silo/Desktop/cleaning_robot_ws/install/robot_camera/share/robot_camera/package.xml

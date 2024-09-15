@@ -1,6 +1,10 @@
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/launch/joint_states_pub.launch.py
 /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/launch/robot_sdf.launch.py
 /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/launch/robot_xacro.launch.py
 /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/config/all_in_one.rviz
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/config/laserscan.rviz
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/config/my_controllers.yaml
+/home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/config/show_lidar_scanner_output.rviz
 /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/config/view_robot.rviz
 /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - AM0600115_INT_REV01_2_SW0001_1.stl
 /home/silo/Desktop/cleaning_robot_ws/install/robot_description/share/robot_description/model/fm_description/v5 - D435-mount-V.stl

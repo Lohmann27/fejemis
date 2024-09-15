@@ -1,0 +1,15 @@
+/home/silo/Desktop/cleaning_robot_ws/install/robot_lidar/share/ament_index/resource_index/package_run_dependencies/robot_lidar
+/home/silo/Desktop/cleaning_robot_ws/install/robot_lidar/share/ament_index/resource_index/parent_prefix_path/robot_lidar
+/home/silo/Desktop/cleaning_robot_ws/install/robot_lidar/share/robot_lidar/environment/ament_prefix_path.sh
+/home/silo/Desktop/cleaning_robot_ws/install/robot_lidar/share/robot_lidar/environment/ament_prefix_path.dsv
+/home/silo/Desktop/cleaning_robot_ws/install/robot_lidar/share/robot_lidar/environment/path.sh
+/home/silo/Desktop/cleaning_robot_ws/install/robot_lidar/share/robot_lidar/environment/path.dsv
+/home/silo/Desktop/cleaning_robot_ws/install/robot_lidar/share/robot_lidar/local_setup.bash
+/home/silo/Desktop/cleaning_robot_ws/install/robot_lidar/share/robot_lidar/local_setup.sh
+/home/silo/Desktop/cleaning_robot_ws/install/robot_lidar/share/robot_lidar/local_setup.zsh
+/home/silo/Desktop/cleaning_robot_ws/install/robot_lidar/share/robot_lidar/local_setup.dsv
+/home/silo/Desktop/cleaning_robot_ws/install/robot_lidar/share/robot_lidar/package.dsv
+/home/silo/Desktop/cleaning_robot_ws/install/robot_lidar/share/ament_index/resource_index/packages/robot_lidar
+/home/silo/Desktop/cleaning_robot_ws/install/robot_lidar/share/robot_lidar/cmake/robot_lidarConfig.cmake
+/home/silo/Desktop/cleaning_robot_ws/install/robot_lidar/share/robot_lidar/cmake/robot_lidarConfig-version.cmake
+/home/silo/Desktop/cleaning_robot_ws/install/robot_lidar/share/robot_lidar/package.xml

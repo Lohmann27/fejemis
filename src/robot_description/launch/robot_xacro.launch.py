@@ -18,6 +18,8 @@ def generate_launch_description():
 
     # Check if we're told to use sim time
     use_sim_time = LaunchConfiguration('use_sim_time', default='true')
+    use_ros2_control = LaunchConfiguration('use_ros2_control', default='false')
+    
 
     # Process the URDF file
     pkg_path = os.path.join(get_package_share_directory(package_name))
@@ -25,7 +27,7 @@ def generate_launch_description():
     robot_description_config = xacro.process_file(xacro_file)
     
     # Create a robot_state_publisher node
-    params = {'robot_description': robot_description_config.toxml(), 'use_sim_time': use_sim_time}
+    params = {'robot_description': robot_description_config.toxml(), 'use_sim_time': use_sim_time, 'use_ros2_control' : use_ros2_control}
     robot_state_publisher = Node(
         package='robot_state_publisher',
         executable='robot_state_publisher',
@@ -40,13 +42,13 @@ def generate_launch_description():
         output='screen',
     )
 
-    rviz = Node(
-            package='rviz2',
-            executable='rviz2',
-            name='rviz2',
-            output='screen',
-            arguments=['-d', os.path.join(get_package_share_directory(package_name), 'config', 'all_in_one.rviz')]
-        )
+    # # Optionally, add the joint_state_publisher_gui
+    # joint_state_publisher_gui = Node(
+    #         package='joint_state_publisher_gui',
+    #         executable='joint_state_publisher_gui',
+    #         name='joint_state_publisher_gui',
+    #         output='screen',
+    #     )
 
 
     # Launch!
@@ -55,7 +57,11 @@ def generate_launch_description():
             'use_sim_time',
             default_value='false',
             description='Use sim time if true'),
-        robot_state_publisher,
+        DeclareLaunchArgument(
+            'use_ros2_control',
+            default_value='true',
+            description='Use ros2_control if true'),
         joint_state_publisher_node,
-        rviz
+        robot_state_publisher,
+
     ])

@@ -1,36 +1,28 @@
 /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/launch/gz.launch.py
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/launch/gz_and_robot.launch.py
 /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/launch/gz_bridge.launch.py
-/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/launch/gz_sim.launch.py
 /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/launch/nav2.launch.py
-/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/launch/online_async_launch.py
 /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/launch/rviz.launch.py
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/launch/simulation.launch.py
 /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/launch/slam.launch.py
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/launch/test_lidar.launch.py
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/launch/test_lidar_and_robot.launch.py
 /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/launch/tester.launch.py
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/launch/tf_broadcaster.launch.py
 /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/config/all_in_one.rviz
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/config/gazebo_params.yaml
 /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/config/gz_bridge.yaml
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/config/laserscan.rviz
 /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/config/mapper_params_online_async.yaml
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/config/odom.rviz
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/config/show_lidar_scanner_output.rviz
 /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/config/view_robot.rviz
 /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/worlds/firstWorld.sdf
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/worlds/lidar_and_robot_world.sdf
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/worlds/lidar_world.sdf
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/worlds/robot_model.sdf
 /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/worlds/square_room.sdf
-/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/models/Coke/materials/coke.png
-/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/models/Coke/meshes/coke.mtl
-/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/models/Coke/meshes/coke.obj
-/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/models/Coke/model.config
-/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/models/Coke/model.sdf
-/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/models/Coke/thumbnails/1.png
-/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/models/Coke/thumbnails/2.png
-/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/models/Coke/thumbnails/3.png
-/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/models/Coke/thumbnails/4.png
-/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/models/Coke/thumbnails/5.png
-/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/models/Cutout Wall/materials/scripts/cutout_wall.material
-/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/models/Cutout Wall/materials/textures/cutout_wall.png
-/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/models/Cutout Wall/model.config
-/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/models/Cutout Wall/model.sdf
-/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/models/Cutout Wall/thumbnails/1.png
-/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/models/Cutout Wall/thumbnails/2.png
-/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/models/Cutout Wall/thumbnails/3.png
-/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/models/Cutout Wall/thumbnails/4.png
-/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/models/Cutout Wall/thumbnails/5.png
+/home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/lib/robot_simulation/tf_broadcaster.py
 /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/ament_index/resource_index/package_run_dependencies/robot_simulation
 /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/ament_index/resource_index/parent_prefix_path/robot_simulation
 /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/environment/ament_prefix_path.sh

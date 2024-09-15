@@ -1,0 +1,59 @@
+[0.017s] Invoking command in '/home/silo/Desktop/cleaning_robot_ws/build/robot_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/silo/Desktop/cleaning_robot_ws/src/robot_lidar -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/silo/Desktop/cleaning_robot_ws/install/robot_lidar
+[0.068s] -- The C compiler identification is GNU 13.2.0
+[0.125s] -- The CXX compiler identification is GNU 13.2.0
+[0.141s] -- Detecting C compiler ABI info
+[0.227s] -- Detecting C compiler ABI info - done
+[0.236s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.236s] -- Detecting C compile features
+[0.237s] -- Detecting C compile features - done
+[0.246s] -- Detecting CXX compiler ABI info
+[0.341s] -- Detecting CXX compiler ABI info - done
+[0.351s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.352s] -- Detecting CXX compile features
+[0.352s] -- Detecting CXX compile features - done
+[0.355s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.531s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.622s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.682s] -- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.739s] -- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.756s] -- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.775s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.798s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.891s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.895s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.974s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.001s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.033s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.147s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.165s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.220s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.389s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.389s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.390s] -- Added test 'lint_cmake' to check CMake code style
+[1.392s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.394s] -- Added test 'xmllint' to check XML markup files
+[1.398s] -- Configuring done (1.4s)
+[1.404s] -- Generating done (0.0s)
+[1.407s] -- Build files have been written to: /home/silo/Desktop/cleaning_robot_ws/build/robot_lidar
+[1.434s] Invoked command in '/home/silo/Desktop/cleaning_robot_ws/build/robot_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/silo/Desktop/cleaning_robot_ws/src/robot_lidar -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/silo/Desktop/cleaning_robot_ws/install/robot_lidar
+[1.435s] Invoking command in '/home/silo/Desktop/cleaning_robot_ws/build/robot_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/silo/Desktop/cleaning_robot_ws/build/robot_lidar -- -j12 -l12
+[1.478s] Invoked command in '/home/silo/Desktop/cleaning_robot_ws/build/robot_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/silo/Desktop/cleaning_robot_ws/build/robot_lidar -- -j12 -l12
+[1.499s] Invoking command in '/home/silo/Desktop/cleaning_robot_ws/build/robot_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/silo/Desktop/cleaning_robot_ws/build/robot_lidar
+[1.507s] -- Install configuration: ""
+[1.507s] -- Execute custom install script
+[1.508s] -- Symlinking: /home/silo/Desktop/cleaning_robot_ws/install/robot_lidar/share/ament_index/resource_index/package_run_dependencies/robot_lidar
+[1.520s] -- Symlinking: /home/silo/Desktop/cleaning_robot_ws/install/robot_lidar/share/ament_index/resource_index/parent_prefix_path/robot_lidar
+[1.529s] -- Symlinking: /home/silo/Desktop/cleaning_robot_ws/install/robot_lidar/share/robot_lidar/environment/ament_prefix_path.sh
+[1.538s] -- Symlinking: /home/silo/Desktop/cleaning_robot_ws/install/robot_lidar/share/robot_lidar/environment/ament_prefix_path.dsv
+[1.547s] -- Symlinking: /home/silo/Desktop/cleaning_robot_ws/install/robot_lidar/share/robot_lidar/environment/path.sh
+[1.556s] -- Symlinking: /home/silo/Desktop/cleaning_robot_ws/install/robot_lidar/share/robot_lidar/environment/path.dsv
+[1.565s] -- Symlinking: /home/silo/Desktop/cleaning_robot_ws/install/robot_lidar/share/robot_lidar/local_setup.bash
+[1.574s] -- Symlinking: /home/silo/Desktop/cleaning_robot_ws/install/robot_lidar/share/robot_lidar/local_setup.sh
+[1.585s] -- Symlinking: /home/silo/Desktop/cleaning_robot_ws/install/robot_lidar/share/robot_lidar/local_setup.zsh
+[1.594s] -- Symlinking: /home/silo/Desktop/cleaning_robot_ws/install/robot_lidar/share/robot_lidar/local_setup.dsv
+[1.602s] -- Symlinking: /home/silo/Desktop/cleaning_robot_ws/install/robot_lidar/share/robot_lidar/package.dsv
+[1.612s] -- Symlinking: /home/silo/Desktop/cleaning_robot_ws/install/robot_lidar/share/ament_index/resource_index/packages/robot_lidar
+[1.620s] -- Symlinking: /home/silo/Desktop/cleaning_robot_ws/install/robot_lidar/share/robot_lidar/cmake/robot_lidarConfig.cmake
+[1.629s] -- Symlinking: /home/silo/Desktop/cleaning_robot_ws/install/robot_lidar/share/robot_lidar/cmake/robot_lidarConfig-version.cmake
+[1.638s] -- Symlinking: /home/silo/Desktop/cleaning_robot_ws/install/robot_lidar/share/robot_lidar/package.xml
+[1.662s] Invoked command in '/home/silo/Desktop/cleaning_robot_ws/build/robot_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/silo/Desktop/cleaning_robot_ws/build/robot_lidar

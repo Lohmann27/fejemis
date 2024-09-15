@@ -1,0 +1,1 @@
+/home/silo/Desktop/cleaning_robot_ws/src/robot_simulation/launch/gz_and_robot.launch.py

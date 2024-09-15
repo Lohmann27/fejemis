@@ -1,0 +1,9 @@
+/home/silo/Desktop/cleaning_robot_ws/build/robot_lidar/CMakeFiles/uninstall.dir
+/home/silo/Desktop/cleaning_robot_ws/build/robot_lidar/CMakeFiles/robot_lidar_uninstall.dir
+/home/silo/Desktop/cleaning_robot_ws/build/robot_lidar/CMakeFiles/test.dir
+/home/silo/Desktop/cleaning_robot_ws/build/robot_lidar/CMakeFiles/edit_cache.dir
+/home/silo/Desktop/cleaning_robot_ws/build/robot_lidar/CMakeFiles/rebuild_cache.dir
+/home/silo/Desktop/cleaning_robot_ws/build/robot_lidar/CMakeFiles/list_install_components.dir
+/home/silo/Desktop/cleaning_robot_ws/build/robot_lidar/CMakeFiles/install.dir
+/home/silo/Desktop/cleaning_robot_ws/build/robot_lidar/CMakeFiles/install/local.dir
+/home/silo/Desktop/cleaning_robot_ws/build/robot_lidar/CMakeFiles/install/strip.dir

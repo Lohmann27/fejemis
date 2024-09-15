@@ -310,8 +310,11 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(DIRECTORY "launch" "config" "worlds" "models" "DESTINATION" "share/robot_simulation")
-ament_cmake_symlink_install_directory("/home/silo/Desktop/cleaning_robot_ws/src/robot_simulation" DIRECTORY "launch" "config" "worlds" "models" "DESTINATION" "share/robot_simulation")
+# install(DIRECTORY "launch" "config" "worlds" "DESTINATION" "share/robot_simulation")
+ament_cmake_symlink_install_directory("/home/silo/Desktop/cleaning_robot_ws/src/robot_simulation" DIRECTORY "launch" "config" "worlds" "DESTINATION" "share/robot_simulation")
+
+# install(PROGRAMS "scripts/tf_broadcaster.py" "DESTINATION" "lib/robot_simulation")
+ament_cmake_symlink_install_programs("/home/silo/Desktop/cleaning_robot_ws/src/robot_simulation" PROGRAMS "scripts/tf_broadcaster.py" "DESTINATION" "lib/robot_simulation")
 
 # install(FILES "/home/silo/Desktop/cleaning_robot_ws/build/robot_simulation/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robot_simulation" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/silo/Desktop/cleaning_robot_ws/src/robot_simulation" FILES "/home/silo/Desktop/cleaning_robot_ws/build/robot_simulation/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robot_simulation" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

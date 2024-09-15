@@ -1,0 +1,46 @@
+[0.028s] Invoking command in '/home/silo/Desktop/cleaning_robot_ws/build/robot_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/silo/Desktop/cleaning_robot_ws/build/robot_simulation -- -j12 -l12
+[0.085s] Invoked command in '/home/silo/Desktop/cleaning_robot_ws/build/robot_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/silo/Desktop/cleaning_robot_ws/build/robot_simulation -- -j12 -l12
+[0.121s] Invoking command in '/home/silo/Desktop/cleaning_robot_ws/build/robot_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/silo/Desktop/cleaning_robot_ws/build/robot_simulation
+[0.144s] -- Install configuration: ""
+[0.147s] -- Execute custom install script
+[0.149s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/launch/gz.launch.py
+[0.150s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/launch/gz_and_robot.launch.py
+[0.151s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/launch/gz_bridge.launch.py
+[0.151s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/launch/nav2.launch.py
+[0.151s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/launch/rviz.launch.py
+[0.151s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/launch/simulation.launch.py
+[0.151s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/launch/slam.launch.py
+[0.151s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/launch/test_lidar.launch.py
+[0.151s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/launch/test_lidar_and_robot.launch.py
+[0.152s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/launch/tester.launch.py
+[0.153s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/launch/tf_broadcaster.launch.py
+[0.155s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/config/all_in_one.rviz
+[0.156s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/config/gazebo_params.yaml
+[0.156s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/config/gz_bridge.yaml
+[0.156s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/config/laserscan.rviz
+[0.156s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/config/mapper_params_online_async.yaml
+[0.156s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/config/odom.rviz
+[0.157s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/config/show_lidar_scanner_output.rviz
+[0.157s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/config/view_robot.rviz
+[0.158s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/worlds/firstWorld.sdf
+[0.158s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/worlds/lidar_and_robot_world.sdf
+[0.158s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/worlds/lidar_world.sdf
+[0.158s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/worlds/robot_model.sdf
+[0.159s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/worlds/square_room.sdf
+[0.159s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/lib/robot_simulation/tf_broadcaster.py
+[0.160s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/ament_index/resource_index/package_run_dependencies/robot_simulation
+[0.160s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/ament_index/resource_index/parent_prefix_path/robot_simulation
+[0.161s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/environment/ament_prefix_path.sh
+[0.161s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/environment/ament_prefix_path.dsv
+[0.162s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/environment/path.sh
+[0.162s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/environment/path.dsv
+[0.162s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/local_setup.bash
+[0.162s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/local_setup.sh
+[0.162s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/local_setup.zsh
+[0.162s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/local_setup.dsv
+[0.163s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/package.dsv
+[0.163s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/ament_index/resource_index/packages/robot_simulation
+[0.164s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/cmake/robot_simulationConfig.cmake
+[0.164s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/cmake/robot_simulationConfig-version.cmake
+[0.164s] -- Up-to-date symlink: /home/silo/Desktop/cleaning_robot_ws/install/robot_simulation/share/robot_simulation/package.xml
+[0.180s] Invoked command in '/home/silo/Desktop/cleaning_robot_ws/build/robot_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/silo/Desktop/cleaning_robot_ws/build/robot_simulation

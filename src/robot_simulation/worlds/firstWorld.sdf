@@ -64,6 +64,8 @@
             </link>
         </model>
 
+        
+
 
         <include>
             <uri>model://src/robot_simulation/worlds/square_room.sdf</uri>
