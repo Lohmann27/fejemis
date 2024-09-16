@@ -50,6 +50,14 @@ def generate_launch_description():
     #         output='screen',
     #     )
 
+    # Static transform from chassis to gazebo lidar frame 
+    static_transform_publisher_1 = Node(
+        package='tf2_ros',
+        executable='static_transform_publisher',
+        name='static_transform_laser_to_lidar',
+        output='screen',
+        arguments=['0', '0', '0', '0', '0', '0', 'chassis', 'fejemis/base_link/laser_scanner']
+    )
 
     # Launch!
     return LaunchDescription([
@@ -61,7 +69,8 @@ def generate_launch_description():
             'use_ros2_control',
             default_value='true',
             description='Use ros2_control if true'),
-        joint_state_publisher_node,
+        #joint_state_publisher_node,
         robot_state_publisher,
+        static_transform_publisher_1,
 
     ])

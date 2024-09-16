@@ -1,5 +1,9 @@
 Packages to install:
 sudo apt install ros-jazzy-ament-cmake
+sudo apt install ros-jazzy-xacro
+sudo apt install ros-jazzy-twist-stamper
+
+
 
 
 

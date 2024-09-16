@@ -39,12 +39,10 @@ def generate_launch_description():
             get_package_share_directory(robot_control_package),'launch','control.launch.py'
         )]),launch_arguments={'use_sim_time': 'true','use_joy': 'true','use_key': 'true'}.items()   
     )
-
     
     return LaunchDescription([
         rsp,
         gazebo,
         rviz,
-        control
-
+        control,
     ])

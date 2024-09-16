@@ -21,8 +21,8 @@
   gz_topic_name: "/lidar"
   ros_type_name: "sensor_msgs/msg/LaserScan"
   gz_type_name: "gz.msgs.LaserScan"
-  subscriber_queue: 10
-  publisher_queue: 10
+  subscriber_queue: 15
+  publisher_queue: 15
   lazy: false
   direction: GZ_TO_ROS
 
@@ -54,14 +54,14 @@
   lazy: false
   direction: GZ_TO_ROS
 
-# - ros_topic_name: "/model/fejemis/odometry"
-#   gz_topic_name: "/model/fejemis/odometry"
-#   ros_type_name: "nav_msgs/msg/Odometry"
-#   gz_type_name: "gz.msgs.Odometry"
-#   subscriber_queue: 10
-#   publisher_queue: 10
-#   lazy: false
-#   direction: GZ_TO_ROS
+- ros_topic_name: "/model/fejemis/odometry"
+  gz_topic_name: "/model/fejemis/odometry"
+  ros_type_name: "nav_msgs/msg/Odometry"
+  gz_type_name: "gz.msgs.Odometry"
+  subscriber_queue: 10
+  publisher_queue: 10
+  lazy: false
+  direction: GZ_TO_ROS
 
 - ros_topic_name: "/tf"
   gz_topic_name: "/model/fejemis/tf"
@@ -70,6 +70,6 @@
   subscriber_queue: 10
   publisher_queue: 10
   lazy: false
-  direction: GZ_TO_ROS
+  direction: BIDIRECTIONAL
   
   

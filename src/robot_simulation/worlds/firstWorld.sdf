@@ -64,58 +64,9 @@
             </link>
         </model>
 
-        
-
-
         <include>
             <uri>model://src/robot_simulation/worlds/square_room.sdf</uri>
         </include>
-<!-- 
-        <include>
-            <name>wall_0</name>
-            <pose>0 -5 0 0 0 0</pose>
-            <uri>
-            https://fuel.gazebosim.org/1.0/OpenRobotics/models/Grey Wall
-            </uri>
-        </include> -->
-
-        <!-- <include>
-            <name>wall_0</name>
-            <pose>0 -5 0 0 0 0</pose>
-            <uri>
-            https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cutout Wall
-            </uri>
-        </include>
-        <include>
-            <name>wall_1</name>
-            <pose>0 5 0 0 0 0</pose>
-            <uri>
-            https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cutout Wall
-            </uri>
-        </include>
-
-        <include>
-            <name>wall_2</name>
-            <pose>5 0 0 0 0 1.5708</pose>
-            <uri>
-            https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cutout Wall
-            </uri>
-        </include>
-
-        <include>
-            <name>wall_3</name>
-            <pose>-5 0 0 0 0 1.5708</pose>
-            <uri>
-            https://fuel.gazebosim.org/1.0/OpenRobotics/models/Cutout Wall
-            </uri>
-        </include> -->
-
-
-        
-        
-        <!-- <include>
-            <uri>model://src/robot_simulation/models/robot_model.sdf</uri>
-        </include> -->
 
     </world>
 </sdf>
