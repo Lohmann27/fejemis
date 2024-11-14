@@ -7,7 +7,8 @@ This project contains the code for a cleaning robot developed with ROS2. The wor
 - [Installation](#installation)
 - [Usage](#usage)
 - [Package Descriptions](#package-descriptions)
-
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Directory Structure
 
@@ -16,24 +17,50 @@ Here’s an overview of the main directories in the `cleaning_robot_ws` workspac
 ```
 cleaning_robot_ws
 │
-├── src
-│   ├── robot_camera            # Manages camera data processing
-│   ├── robot_control           # Responsible for robot control and movement
-│   ├── robot_description       # Contains the robot model (URDF/Xacro files)
-│   ├── robot_in_practice       # Experimental or practical code for testing
-│   ├── robot_lidar             # Handles LiDAR data processing
-│   └── robot_simulation        # Provides simulation environments and configuration
-│
 ├── build                      # ROS2 build directory
 ├── install                    # ROS2 install directory
 ├── log                        # ROS2 log directory
 ├── Pictures                   # Contains images related to the project
-└── recordings                 # Stores recordings of simulation or real-world testing
+├── recordings                 # Stores recordings of simulation or real-world testing
+├── src
+│   ├── robot_control           # Responsible for robot control and movement
+│   │   ├── config
+│   │   ├── launch
+│   │   ├── CMakeLists.txt
+│   │   └── package.xml
+│   ├── robot_description       # Contains the robot model (URDF/Xacro files)
+│   │   ├── config
+│   │   ├── launch
+│   │   ├── xacro
+│   │   ├── CMakeLists.txt
+│   │   └── package.xml
+│   ├── robot_in_practice       # Experimental or practical code for testing
+│   │   ├── include
+│   │   ├── src
+│   │   ├── CMakeLists.txt
+│   │   └── package.xml
+│   ├── robot_lidar             # Handles LiDAR data processing
+│   │   ├── launch
+│   │   ├── worlds
+│   │   ├── CMakeLists.txt
+│   │   └── package.xml
+│   └── robot_simulation        # Provides simulation environments and configuration
+│       ├── config
+│       ├── launch
+│       ├── maps
+│       ├── scripts
+│       ├── worlds
+│       ├── CMakeLists.txt
+│       └── package.xml
+├── cleaning_robot_ws.code-workspace
+├── How to start a launch.txt
+├── Old Workspaces.code-workspace
+└── Packages to install sudo.txt
 ```
 
 ## Installation
 
-First, go to https://docs.ros.org/en/foxy/ and install ROS2 Foxy.
+First, go to https://docs.ros.org/en/jazzy/ and install ROS2 Jazzy.
 
 Make sure your system is up to date:
 
@@ -48,51 +75,51 @@ Then install all the required packages:
 
 ```sh
 sudo apt install -y \
-  ros-foxy-rclcpp \
-  ros-foxy-std-msgs \
-  ros-foxy-sensor-msgs \
-  ros-foxy-geometry-msgs \
-  ros-foxy-nav2-bringup \
-  ros-foxy-slam-toolbox \
-  ros-foxy-tf2 \
-  ros-foxy-tf2-ros \
-  ros-foxy-robot-state-publisher \
-  ros-foxy-joint-state-publisher \
-  ros-foxy-urdf \
-  ros-foxy-xacro \
-  ros-foxy-controller-manager \
-  ros-foxy-joy \
-  ros-foxy-teleop-twist-joy \
-  ros-foxy-teleop-twist-keyboard \
-  ros-foxy-twist-mux
+  ros-jazzy-rclcpp \
+  ros-jazzy-std-msgs \
+  ros-jazzy-sensor-msgs \
+  ros-jazzy-geometry-msgs \
+  ros-jazzy-nav2-bringup \
+  ros-jazzy-slam-toolbox \
+  ros-jazzy-tf2 \
+  ros-jazzy-tf2-ros \
+  ros-jazzy-robot-state-publisher \
+  ros-jazzy-joint-state-publisher \
+  ros-jazzy-urdf \
+  ros-jazzy-xacro \
+  ros-jazzy-controller-manager \
+  ros-jazzy-joy \
+  ros-jazzy-teleop-twist-joy \
+  ros-jazzy-teleop-twist-keyboard \
+  ros-jazzy-twist-mux
 ```
 
 ### Simulation Packages
 
 ```sh
-sudo apt install -y ros-foxy-ros-gz
+sudo apt install -y ros-jazzy-ros-gz
 ```
 
 ### Navigation Packages
 
 ```sh
 sudo apt install -y \
-  ros-foxy-nav2-map-server \
-  ros-foxy-nav2-amcl \
-  ros-foxy-nav2-controller \
-  ros-foxy-nav2-planner \
-  ros-foxy-nav2-recoveries \
-  ros-foxy-nav2-lifecycle-manager
+  ros-jazzy-nav2-map-server \
+  ros-jazzy-nav2-amcl \
+  ros-jazzy-nav2-controller \
+  ros-jazzy-nav2-planner \
+  ros-jazzy-nav2-recoveries \
+  ros-jazzy-nav2-lifecycle-manager
 ```
 
 ### Additional Utilities
 
 ```sh
 sudo apt install -y \
-  ros-foxy-rqt \
-  ros-foxy-rqt-robot-plugins \
-  ros-foxy-rqt-graph \
-  ros-foxy-rviz2
+  ros-jazzy-rqt \
+  ros-jazzy-rqt-robot-plugins \
+  ros-jazzy-rqt-graph \
+  ros-jazzy-rviz2
 ```
 
 Clone this repository and initialize the ROS2 workspace:
