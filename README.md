@@ -7,8 +7,7 @@ This project contains the code for a cleaning robot developed with ROS2. The wor
 - [Installation](#installation)
 - [Usage](#usage)
 - [Package Descriptions](#package-descriptions)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Directory Structure
 
